@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" prefHeight="627.0" prefWidth="751.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="retailer.Retailer1Controller">
+    <stylesheets>
+        <URL value="@retailer1.css" />
+    </stylesheets>
+   <children>
+      <ImageView fx:id="imagebg" fitHeight="279.0" fitWidth="751.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@bg1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="menuupload" contentDisplay="CENTER" layoutX="449.0" layoutY="301.0" mnemonicParsing="false" onAction="#menuUplaod" prefHeight="25.0" prefWidth="98.0" text="Menu Upload" />
+      <Button fx:id="editmenu" contentDisplay="CENTER" layoutX="597.0" layoutY="301.0" mnemonicParsing="false" onAction="#editMenu" text="Edit Menu" />
+      <Pane fx:id="pane3" layoutX="-1.0" layoutY="280.0" prefHeight="367.0" prefWidth="169.0" />
+      <Pane fx:id="pane2" layoutY="1.0" prefHeight="279.0" prefWidth="169.0">
+         <children>
+            <Label fx:id="labelhome" alignment="CENTER" layoutY="55.0" onMouseClicked="#handleLabelEvent" prefHeight="34.0" prefWidth="169.0" text="HOME">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelorder" alignment="CENTER" layoutY="98.0" onMouseClicked="#handleLabelEvent" prefHeight="34.0" prefWidth="169.0" text="ORDERING">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelreserve" alignment="CENTER" layoutY="150.0" onMouseClicked="#handleLabelEvent" prefHeight="34.0" prefWidth="169.0" text="RESERVATIONS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelstatus" alignment="CENTER" layoutY="196.0" onMouseClicked="#handleLabelEvent" prefHeight="34.0" prefWidth="169.0" text="ORDER STATUS">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

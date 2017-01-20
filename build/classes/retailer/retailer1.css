@@ -1,0 +1,24 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+#anchorpane{
+    -fx-background-color:#2f4f4f;
+    -fx-border-radius: 10;
+}
+
+#pane2{
+    -fx-background-color:rgba(0,100,100,0.8);
+    -fx-border-radius: 10;
+}
+
+#pane3{
+    -fx-background-color:#5f9ea0;
+    -fx-border-radius: 10;
+}
+.label{
+    -fx-text-fill:wheat;
+    
+}  
+}
